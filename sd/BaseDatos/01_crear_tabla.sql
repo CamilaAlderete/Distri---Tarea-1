@@ -7,3 +7,9 @@ CREATE TABLE persona
 );
 
 -------modificacion--------------
+CREATE TABLE TRABAJO(
+ id_trabajo integer not null,
+ puesto varchar(36) not null,
+ salario integer not null,
+ constraint pk_trabajo primary key(id_trabajo),
+)

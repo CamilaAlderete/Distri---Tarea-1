@@ -5,3 +5,5 @@ CREATE TABLE persona
   apellido character varying(1000),
   CONSTRAINT pk_cedula PRIMARY KEY (cedula)
 );
+
+-------modificacion--------------
